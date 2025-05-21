@@ -75,3 +75,4 @@ function openTab(event, tabId) {
   // Add active class to the clicked button
   event.currentTarget.classList.add("active");
 }
+

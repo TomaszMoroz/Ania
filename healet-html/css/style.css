@@ -439,7 +439,7 @@ a:focus {
 
 .shop_section .box .img-box img {
   max-width: 100%;
-  max-height: 145px;
+  max-height: 190px;
 }
 
 .shop_section .box .detail-box {
@@ -499,6 +499,25 @@ a:focus {
 .shop_section .btn-box a:hover {
   background-color: transparent;
   color: #fd9c6b;
+}
+
+
+.shop_section .box .description{
+ position: absolute;
+ background: rgb(236, 235, 235);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.85;
+  display: none;
+  padding: 15px;
+  border: solid darkgray 3px;
+  border-radius: 10px;
 }
 
 .about_section .row {
