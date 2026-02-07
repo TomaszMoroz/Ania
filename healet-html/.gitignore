@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Vite cache
+.vite/
+
+# System files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# Mac system files
+Icon?
+
+# Vite build output
+dist/
